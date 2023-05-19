@@ -1,9 +1,9 @@
 <?php
 
-$usuario = 'root';
-$senha = '';
-$database = 'bd_petshop';
-$host = 'localhost';
+$usuario = 'sbwjgtkzyy';
+$senha = '2W162SH2T2573YZ4$';
+$database = 'petquery-database';
+$host = 'petquery-server.mysql.database.azure.com';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);
 
