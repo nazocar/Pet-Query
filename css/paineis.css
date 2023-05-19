@@ -1,0 +1,8 @@
+#cadfunc:hover, #cadus:hover, #listfunc:hover, #listus:hover, #listani:hover, #agend:hover, #btnrelatorio:hover{
+    background-color: #518CD7!important;
+    color: #fff!important;
+}
+
+#searchfunc:focus, #searchcli:focus, #searchani:focus, #searchagend:focus{
+    outline: none!important;
+}

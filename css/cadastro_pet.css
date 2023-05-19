@@ -1,0 +1,15 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 1000px){
+    #form_cad{
+        width: 80%!important
+    }
+}
+
+@media (max-width: 600px){
+    #form_cad{
+        width: 90%!important
+    }
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: calibri
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus, .navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#home, #agendamento, #produtos, #contato{
+    color: #fff;
+}
+
+#home:hover, #agendamento:hover, #produtos:hover, #contato:hover{
+    color: #0D51AA;
+}
+
+#login{
+    background-color: #A7C8F2;
+    color: #0D51AA;
+}
+
+#login:hover{
+    background-color: #0D51AA;
+    color: #fff;
+}
+
+@media (max-width: 991px){
+    #login, #home, #agendamento, #produtos, #contato, #user{
+        background-color: #518CD7!important;
+        color: #fff!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}

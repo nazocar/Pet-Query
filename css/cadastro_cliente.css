@@ -1,0 +1,37 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 1000px){
+    #form_cad{
+        width: 80%!important
+    }
+}
+
+@media (max-width: 600px){
+    #form_cad{
+        width: 90%!important
+    }
+}
+
+#password{
+    box-sizing: border-box;
+
+}
+
+#confpassword{
+    box-sizing: border-box;
+
+}
+
+#divi{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: gray;
+}

@@ -1,0 +1,24 @@
+*{
+    font-family: calibri
+}
+
+@media(max-width: 575px){
+    #cont{
+        width: 100%!important;
+    }
+
+    #novo{
+        width: 440px!important;
+    }
+
+    #card{
+        text-align: center!important;
+    }
+}
+
+@media(max-width: 490px){
+
+    #novo{
+        width: 100%!important;
+    }
+}

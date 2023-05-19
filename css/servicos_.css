@@ -1,0 +1,16 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 768px){
+    #cont_aumigos{
+        width: 100%!important;
+    }
+}
+
+@media(max-width: 767px){
+    #nome_aumigo, #foto_aumigo, #preco{
+        text-align: center!important;
+        justify-content: center!important;
+    }
+}

@@ -1,0 +1,31 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 1000px){
+    #form_login{
+        width: 60%!important
+    }
+}
+
+@media (max-width: 600px){
+    #form_login{
+        width: 80%!important
+    }
+}
+
+#senhalogin{
+    box-sizing: border-box;
+}
+
+#divi{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    cursor: pointer;
+    color: gray;
+}

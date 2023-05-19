@@ -1,0 +1,126 @@
+*{
+    font-family: calibri
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus, .navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.img-arredondada {
+    border-radius: 50%;
+    background-position: -30px -30px;
+    height: 100px;
+    width: 100px;
+  }
+
+#home, #agendamento, #produtos, #contato{
+    color: #fff;
+}
+
+#home:hover, #agendamento:hover, #produtos:hover, #contato:hover{
+    color: #0D51AA;
+}
+
+#login{
+    background-color: #A7C8F2;
+    color: #0D51AA;
+}
+
+#login:hover{
+    background-color: #0D51AA;
+    color: #fff;
+}
+
+@media (max-width: 991px){
+    #login, #home, #agendamento, #produtos, #contato{
+        background-color: #518CD7!important;
+        color: #fff!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}
+
+@media (max-width: 1199px){
+    #servicos, #blog{
+        text-align: center!important;
+    }
+}
+
+@media (max-width: 1210px){
+    #carrossel{
+        height: 400px!important;
+    }
+}
+
+@media (max-width: 900px){
+    #carrossel{
+        height: 350px!important;
+    }
+}
+
+@media (max-width: 750px){
+    #carrossel{
+        height: 300px!important;
+    }
+}
+
+@media (max-width: 660px){
+    #carrossel{
+        height: 250px!important;
+    }
+}
+
+@media (max-width: 400px){
+    #carrossel{
+        height: 200px!important;
+    }
+}
+
+@media (max-width: 300px){
+    #carrossel{
+        height: 150px!important;
+    }
+}
+
+@media (max-width: 600px){
+    #textosobre{
+        padding-left: 5vw!important;
+        padding-right: 5vw!important;
+    }
+}
+
+@media (max-width: 460px){
+    #textosobre{
+        padding-left: none!important;
+        padding-right: none!important;
+    }
+}
+
+#botaosobre:hover, #botaoblog:hover, #botaomapa:hover{
+    background-color: #0D51AA!important;
+    color: #fff!important;
+}
+
+@media(max-width: 1199px){
+    #colab{
+        height: 270px!important;
+    }
+}
+
+@media(max-width: 991px){
+    #colab{
+        height: 250px!important;
+    }
+}
+
+@media(max-width: 767px){
+    #colab{
+        height: 100%!important;
+    }
+}

@@ -1,0 +1,64 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 380px){
+    #dia, #hora{
+        font-size: 14px!important;
+    }
+}
+
+@media (max-width: 380px){
+    #dia, #hora{
+        font-size: 14px!important;
+    }
+}
+
+@media (max-width: 356px){
+    #dia, #hora{
+        font-size: 12px!important;
+    }
+
+    #agenda, #relogio{
+        width: 25px!important
+    }
+
+    #dia{
+        margin-right: 5px!important;
+    }
+}
+
+@media (max-width: 295px){
+    #agenda, #relogio{
+        width: 20px!important
+    }
+
+    #dia{
+        margin-right: 0px!important
+    }
+
+    #relogio{
+        margin-left: 30px!important;
+    }
+}
+
+@media (max-width: 530px){
+    #form_confirma{
+        width: 400px!important
+
+    }
+}
+
+@media (max-width: 425px){
+    #form_confirma{
+        width: 300px!important
+
+    }
+}
+
+@media (max-width: 325px){
+    #form_confirma{
+        width: 250px!important
+
+    }
+}

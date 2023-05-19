@@ -1,0 +1,15 @@
+*{
+    font-family: calibri
+}
+
+@media (max-width: 1000px){
+    #form_login{
+        width: 60%!important
+    }
+}
+
+@media (max-width: 600px){
+    #form_login{
+        width: 80%!important
+    }
+}
